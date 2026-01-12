@@ -1,0 +1,1517 @@
+[
+  {
+    "id": "iphone_16_pro_max",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro Max",
+    "variants": {
+      "ram": [8],
+      "storage": [256, 512, 1024],
+      "price": [144900, 164900, 184900]
+    },
+    "display": 6.9,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4685,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "iphone_16_pro",
+    "brand": "Apple",
+    "model": "iPhone 16 Pro",
+    "variants": {
+      "ram": [8],
+      "storage": [128, 256, 512, 1024],
+      "price": [119900, 129900, 149900, 169900]
+    },
+    "display": 6.3,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 3582,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "samsung_s24_ultra",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "variants": {
+      "ram": [12],
+      "storage": [256, 512, 1024],
+      "price": [129999, 139999, 159999]
+    },
+    "display": 6.8,
+    "camera": {
+      "rear_mp": 200,
+      "front_mp": 12
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_z_fold_6",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 6",
+    "variants": {
+      "ram": [12],
+      "storage": [256, 512, 1024],
+      "price": [164999, 176999, 200999]
+    },
+    "display": 7.6,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10
+    },
+    "battery": 4400,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "google_pixel_9_pro_xl",
+    "brand": "Google",
+    "model": "Pixel 9 Pro XL",
+    "variants": {
+      "ram": [16],
+      "storage": [256, 512],
+      "price": [124999, 139999]
+    },
+    "display": 6.8,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 42
+    },
+    "battery": 5060,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "iphone_15_pro_max",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "variants": {
+      "ram": [8],
+      "storage": [256, 512, 1024],
+      "price": [139900, 159900, 179900]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4441,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "xiaomi_14_ultra",
+    "brand": "Xiaomi",
+    "model": "14 Ultra",
+    "variants": {
+      "ram": [16],
+      "storage": [512],
+      "price": [99999, 119999]
+    },
+    "display": 6.73,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "vivo_x100_pro",
+    "brand": "Vivo",
+    "model": "X100 Pro",
+    "variants": {
+      "ram": [16],
+      "storage": [512],
+      "price": [89999, 104999]
+    },
+    "display": 6.78,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5400,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_z_fold_5",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 5",
+    "variants": {
+      "ram": [12],
+      "storage": [256, 512, 1024],
+      "price": [134999, 149999, 162999]
+    },
+    "display": 7.6,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10
+    },
+    "battery": 4400,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "pixel_9_pro",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "variants": {
+      "ram": [16],
+      "storage": [128, 256],
+      "price": [109999, 121999]
+    },
+    "display": 6.3,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 42
+    },
+    "battery": 4700,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "rog_phone_8_pro",
+    "brand": "ASUS",
+    "model": "ROG Phone 8 Pro",
+    "variants": {
+      "ram": [16, 24],
+      "storage": [512, 1024],
+      "price": [94999, 119999]
+    },
+    "display": 6.78,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5500,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "sony_xperia_1_vi",
+    "brand": "Sony",
+    "model": "Xperia 1 VI",
+    "variants": {
+      "ram": [12],
+      "storage": [256, 512],
+      "price": [115000, 128000]
+    },
+    "display": 6.5,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "iphone_14_pro_max",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "variants": {
+      "ram": [6],
+      "storage": [512, 1024],
+      "price": [129900, 149900]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4323,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "oppo_find_x7_ultra",
+    "brand": "Oppo",
+    "model": "Find X7 Ultra",
+    "variants": {
+      "ram": [16],
+      "storage": [512],
+      "price": [95000, 105000]
+    },
+    "display": 6.82,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "motorola_razr_50_ultra",
+    "brand": "Motorola",
+    "model": "Razr 50 Ultra",
+    "variants": {
+      "ram": [12],
+      "storage": [512],
+      "price": [94999, 105999]
+    },
+    "display": 6.9,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 4000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "honor_magic_6_pro",
+    "brand": "Honor",
+    "model": "Magic 6 Pro",
+    "variants": {
+      "ram": [12, 16],
+      "storage": [512],
+      "price": [99999, 109999]
+    },
+    "display": 6.8,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 50
+    },
+    "battery": 5600,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "huawei_pura_70_ultra",
+    "brand": "Huawei",
+    "model": "Pura 70 Ultra",
+    "variants": {
+      "ram": [16],
+      "storage": [512, 1024],
+      "price": [115000, 130000]
+    },
+    "display": 6.8,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 13
+    },
+    "battery": 5200,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "iphone_15_plus_top",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus (512GB)",
+    "variants": {
+      "ram": [6],
+      "storage": [512],
+      "price": [109900, 115000]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4383,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_s24_plus_top",
+    "brand": "Samsung",
+    "model": "Galaxy S24+ (512GB)",
+    "variants": {
+      "ram": [12],
+      "storage": [512],
+      "price": [105999, 109999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 12
+    },
+    "battery": 4900,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_z_flip_6_top",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 6",
+    "variants": {
+      "ram": [12],
+      "storage": [512],
+      "price": [109999, 121999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10
+    },
+    "battery": 4000,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "iphone_16_base",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "variants": {
+      "ram": [8],
+      "storage": [128, 256, 512],
+      "price": [79900, 89900, 109900]
+    },
+    "display": 6.1,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 3561,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "iphone_16_plus",
+    "brand": "Apple",
+    "model": "iPhone 16 Plus",
+    "variants": {
+      "ram": [8],
+      "storage": [128, 256],
+      "price": [89900, 99900]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4674,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_s24_plus",
+    "brand": "Samsung",
+    "model": "Galaxy S24 Plus",
+    "variants": {
+      "ram": [12],
+      "storage": [256, 512],
+      "price": [99999, 109999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 12
+    },
+    "battery": 4900,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_s23_ultra_drop",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Ultra",
+    "variants": {
+      "ram": [12],
+      "storage": [256],
+      "price": [84999, 89999]
+    },
+    "display": 6.8,
+    "camera": {
+      "rear_mp": 200,
+      "front_mp": 12
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "google_pixel_9_pro",
+    "brand": "Google",
+    "model": "Pixel 9 Pro",
+    "variants": {
+      "ram": [16],
+      "storage": [128, 256],
+      "price": [94999, 104999]
+    },
+    "display": 6.3,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 42
+    },
+    "battery": 4700,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "google_pixel_9_base",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "variants": {
+      "ram": [12],
+      "storage": [256],
+      "price": [79999, 82999]
+    },
+    "display": 6.3,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10.5
+    },
+    "battery": 4700,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "iphone_15_pro_sale",
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "variants": {
+      "ram": [8],
+      "storage": [128],
+      "price": [94900, 99900]
+    },
+    "display": 6.1,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 3274,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "oneplus_12_top",
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "variants": {
+      "ram": [16],
+      "storage": [512],
+      "price": [69999, 79999]
+    },
+    "display": 6.82,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5400,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "samsung_z_flip_6_base",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 6",
+    "variants": {
+      "ram": [12],
+      "storage": [256],
+      "price": [94999, 99999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10
+    },
+    "battery": 4000,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "xiaomi_14_top",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 14",
+    "variants": {
+      "ram": [12],
+      "storage": [512],
+      "price": [74999, 81999]
+    },
+    "display": 6.36,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 4610,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "vivo_x100_pro_base",
+    "brand": "Vivo",
+    "model": "X100 Pro",
+    "variants": {
+      "ram": [16],
+      "storage": [512],
+      "price": [89999, 92999]
+    },
+    "display": 6.78,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5400,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "motorola_razr_50_ultra",
+    "brand": "Motorola",
+    "model": "Razr 50 Ultra",
+    "variants": {
+      "ram": [12],
+      "storage": [512],
+      "price": [89999, 94999]
+    },
+    "display": 6.9,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 4000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "google_pixel_8_pro_sale",
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "variants": {
+      "ram": [12],
+      "storage": [128, 256],
+      "price": [84999, 92999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 10.5
+    },
+    "battery": 5050,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "asus_rog_8",
+    "brand": "ASUS",
+    "model": "ROG Phone 8",
+    "variants": {
+      "ram": [12, 16],
+      "storage": [256],
+      "price": [84999, 94999]
+    },
+    "display": 6.78,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5500,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "iphone_15_plus_top",
+    "brand": "Apple",
+    "model": "iPhone 15 Plus",
+    "variants": {
+      "ram": [6],
+      "storage": [512],
+      "price": [89900, 95900]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 4383,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "sony_xperia_5_v",
+    "brand": "Sony",
+    "model": "Xperia 5 V",
+    "variants": {
+      "ram": [8],
+      "storage": [256],
+      "price": [82000, 88000]
+    },
+    "display": 6.1,
+    "camera": {
+      "rear_mp": 48,
+      "front_mp": 12
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "samsung_z_flip_5_top",
+    "brand": "Samsung",
+    "model": "Galaxy Z Flip 5",
+    "variants": {
+      "ram": [8],
+      "storage": [512],
+      "price": [84999, 89999]
+    },
+    "display": 6.7,
+    "camera": {
+      "rear_mp": 12,
+      "front_mp": 10
+    },
+    "battery": 3700,
+    "_5g": true,
+    "compact": true
+  },
+  {
+    "id": "samsung_s23_plus_clearance",
+    "brand": "Samsung",
+    "model": "Galaxy S23 Plus",
+    "variants": {
+      "ram": [8],
+      "storage": [512],
+      "price": [84000, 89000]
+    },
+    "display": 6.6,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 12
+    },
+    "battery": 4700,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "oppo_find_x7_base",
+    "brand": "Oppo",
+    "model": "Find X7",
+    "variants": {
+      "ram": [12, 16],
+      "storage": [256, 512],
+      "price": [78000, 85000]
+    },
+    "display": 6.78,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 5000,
+    "_5g": true,
+    "compact": false
+  },
+  {
+    "id": "xiaomi_13_pro_sale",
+    "brand": "Xiaomi",
+    "model": "Xiaomi 13 Pro",
+    "variants": {
+      "ram": [12],
+      "storage": [256],
+      "price": [74999, 80999]
+    },
+    "display": 6.73,
+    "camera": {
+      "rear_mp": 50,
+      "front_mp": 32
+    },
+    "battery": 4820,
+    "_5g": true,
+    "compact": false
+  },
+    {
+      "id": "iphone_16_base",
+      "brand": "Apple",
+      "model": "iPhone 16",
+      "variants": {
+        "ram": [8],
+        "storage": [128, 256, 512],
+        "price": [79900, 89900, 109900]
+      },
+      "display": 6.1,
+      "camera": {
+        "rear_mp": 48,
+        "front_mp": 12
+      },
+      "battery": 3561,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "iphone_16_plus",
+      "brand": "Apple",
+      "model": "iPhone 16 Plus",
+      "variants": {
+        "ram": [8],
+        "storage": [128, 256],
+        "price": [89900, 99900]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 48,
+        "front_mp": 12
+      },
+      "battery": 4674,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "samsung_s24_plus",
+      "brand": "Samsung",
+      "model": "Galaxy S24 Plus",
+      "variants": {
+        "ram": [12],
+        "storage": [256, 512],
+        "price": [99999, 109999]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 12
+      },
+      "battery": 4900,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "samsung_s23_ultra_drop",
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "variants": {
+        "ram": [12],
+        "storage": [256],
+        "price": [84999, 89999]
+      },
+      "display": 6.8,
+      "camera": {
+        "rear_mp": 200,
+        "front_mp": 12
+      },
+      "battery": 5000,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "google_pixel_9_pro",
+      "brand": "Google",
+      "model": "Pixel 9 Pro",
+      "variants": {
+        "ram": [16],
+        "storage": [128, 256],
+        "price": [94999, 104999]
+      },
+      "display": 6.3,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 42
+      },
+      "battery": 4700,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "google_pixel_9_base",
+      "brand": "Google",
+      "model": "Pixel 9",
+      "variants": {
+        "ram": [12],
+        "storage": [256],
+        "price": [79999, 82999]
+      },
+      "display": 6.3,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 10.5
+      },
+      "battery": 4700,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "iphone_15_pro_sale",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "variants": {
+        "ram": [8],
+        "storage": [128],
+        "price": [94900, 99900]
+      },
+      "display": 6.1,
+      "camera": {
+        "rear_mp": 48,
+        "front_mp": 12
+      },
+      "battery": 3274,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "oneplus_12_top",
+      "brand": "OnePlus",
+      "model": "OnePlus 12",
+      "variants": {
+        "ram": [16],
+        "storage": [512],
+        "price": [69999, 79999]
+      },
+      "display": 6.82,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 5400,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "samsung_z_flip_6_base",
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 6",
+      "variants": {
+        "ram": [12],
+        "storage": [256],
+        "price": [94999, 99999]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 10
+      },
+      "battery": 4000,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "xiaomi_14_top",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 14",
+      "variants": {
+        "ram": [12],
+        "storage": [512],
+        "price": [74999, 81999]
+      },
+      "display": 6.36,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 4610,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "vivo_x100_pro_base",
+      "brand": "Vivo",
+      "model": "X100 Pro",
+      "variants": {
+        "ram": [16],
+        "storage": [512],
+        "price": [89999, 92999]
+      },
+      "display": 6.78,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 5400,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "motorola_razr_50_ultra",
+      "brand": "Motorola",
+      "model": "Razr 50 Ultra",
+      "variants": {
+        "ram": [12],
+        "storage": [512],
+        "price": [89999, 94999]
+      },
+      "display": 6.9,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 4000,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "google_pixel_8_pro_sale",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "variants": {
+        "ram": [12],
+        "storage": [128, 256],
+        "price": [84999, 92999]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 10.5
+      },
+      "battery": 5050,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "asus_rog_8",
+      "brand": "ASUS",
+      "model": "ROG Phone 8",
+      "variants": {
+        "ram": [12, 16],
+        "storage": [256],
+        "price": [84999, 94999]
+      },
+      "display": 6.78,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 5500,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "iphone_15_plus_top",
+      "brand": "Apple",
+      "model": "iPhone 15 Plus",
+      "variants": {
+        "ram": [6],
+        "storage": [512],
+        "price": [89900, 95900]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 48,
+        "front_mp": 12
+      },
+      "battery": 4383,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "sony_xperia_5_v",
+      "brand": "Sony",
+      "model": "Xperia 5 V",
+      "variants": {
+        "ram": [8],
+        "storage": [256],
+        "price": [82000, 88000]
+      },
+      "display": 6.1,
+      "camera": {
+        "rear_mp": 48,
+        "front_mp": 12
+      },
+      "battery": 5000,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "samsung_z_flip_5_top",
+      "brand": "Samsung",
+      "model": "Galaxy Z Flip 5",
+      "variants": {
+        "ram": [8],
+        "storage": [512],
+        "price": [84999, 89999]
+      },
+      "display": 6.7,
+      "camera": {
+        "rear_mp": 12,
+        "front_mp": 10
+      },
+      "battery": 3700,
+      "_5g": true,
+      "compact": true
+    },
+    {
+      "id": "samsung_s23_plus_clearance",
+      "brand": "Samsung",
+      "model": "Galaxy S23 Plus",
+      "variants": {
+        "ram": [8],
+        "storage": [512],
+        "price": [84000, 89000]
+      },
+      "display": 6.6,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 12
+      },
+      "battery": 4700,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "oppo_find_x7_base",
+      "brand": "Oppo",
+      "model": "Find X7",
+      "variants": {
+        "ram": [12, 16],
+        "storage": [256, 512],
+        "price": [78000, 85000]
+      },
+      "display": 6.78,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 5000,
+      "_5g": true,
+      "compact": false
+    },
+    {
+      "id": "xiaomi_13_pro_sale",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13 Pro",
+      "variants": {
+        "ram": [12],
+        "storage": [256],
+        "price": [74999, 80999]
+      },
+      "display": 6.73,
+      "camera": {
+        "rear_mp": 50,
+        "front_mp": 32
+      },
+      "battery": 4820,
+      "_5g": true,
+      "compact": false
+    }
+  ,
+      {
+        "id": "iphone_16_base",
+        "brand": "Apple",
+        "model": "iPhone 16",
+        "variants": {
+          "ram": [8],
+          "storage": [128, 256],
+          "price": [69900, 79900]
+        },
+        "display": 6.1,
+        "camera": {
+          "rear_mp": 48,
+          "front_mp": 12
+        },
+        "battery": 3561,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "iphone_16_plus_base",
+        "brand": "Apple",
+        "model": "iPhone 16 Plus",
+        "variants": {
+          "ram": [8],
+          "storage": [128],
+          "price": [74900, 79900]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 48,
+          "front_mp": 12
+        },
+        "battery": 4674,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "samsung_s25_base",
+        "brand": "Samsung",
+        "model": "Galaxy S25",
+        "variants": {
+          "ram": [12],
+          "storage": [128, 256],
+          "price": [70490, 78999]
+        },
+        "display": 6.2,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 12
+        },
+        "battery": 4000,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "samsung_s25_plus_base",
+        "brand": "Samsung",
+        "model": "Galaxy S25 Plus",
+        "variants": {
+          "ram": [12],
+          "storage": [256],
+          "price": [67999, 79999]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 12
+        },
+        "battery": 4900,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "samsung_s25_fe",
+        "brand": "Samsung",
+        "model": "Galaxy S25 FE",
+        "variants": {
+          "ram": [8, 12],
+          "storage": [128, 256],
+          "price": [59999, 65999]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 12
+        },
+        "battery": 4900,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "oneplus_15_base",
+        "brand": "OnePlus",
+        "model": "OnePlus 15",
+        "variants": {
+          "ram": [12, 16],
+          "storage": [256, 512],
+          "price": [72999, 79998]
+        },
+        "display": 6.78,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 7300,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "oneplus_13_pro",
+        "brand": "OnePlus",
+        "model": "OnePlus 13",
+        "variants": {
+          "ram": [12, 16],
+          "storage": [256, 512],
+          "price": [62490, 70999]
+        },
+        "display": 6.82,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 6000,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "google_pixel_10_base",
+        "brand": "Google",
+        "model": "Pixel 10",
+        "variants": {
+          "ram": [12],
+          "storage": [256],
+          "price": [69899, 71350]
+        },
+        "display": 6.3,
+        "camera": {
+          "rear_mp": 48,
+          "front_mp": 10.5
+        },
+        "battery": 4970,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "google_pixel_9_top",
+        "brand": "Google",
+        "model": "Pixel 9",
+        "variants": {
+          "ram": [12],
+          "storage": [256],
+          "price": [54999, 64990]
+        },
+        "display": 6.3,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 10.5
+        },
+        "battery": 4700,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "vivo_x300_compact",
+        "brand": "Vivo",
+        "model": "X300",
+        "variants": {
+          "ram": [12],
+          "storage": [256],
+          "price": [75999]
+        },
+        "display": 6.31,
+        "camera": {
+          "rear_mp": 200,
+          "front_mp": 50
+        },
+        "battery": 6040,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "vivo_x200_base",
+        "brand": "Vivo",
+        "model": "X200",
+        "variants": {
+          "ram": [16],
+          "storage": [512],
+          "price": [63333, 67999]
+        },
+        "display": 6.67,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 5800,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "oppo_find_x9_base",
+        "brand": "Oppo",
+        "model": "Find X9",
+        "variants": {
+          "ram": [12, 16],
+          "storage": [256, 512],
+          "price": [74999, 79999]
+        },
+        "display": 6.78,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 6000,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "oppo_reno_15_pro",
+        "brand": "Oppo",
+        "model": "Reno 15 Pro",
+        "variants": {
+          "ram": [12],
+          "storage": [256, 512],
+          "price": [67999, 72999]
+        },
+        "display": 6.78,
+        "camera": {
+          "rear_mp": 200,
+          "front_mp": 50
+        },
+        "battery": 6500,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "oppo_reno_15_pro_mini",
+        "brand": "Oppo",
+        "model": "Reno 15 Pro Mini",
+        "variants": {
+          "ram": [12],
+          "storage": [256, 512],
+          "price": [59999, 64999]
+        },
+        "display": 6.32,
+        "camera": {
+          "rear_mp": 200,
+          "front_mp": 50
+        },
+        "battery": 6200,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "realme_gt_8_pro",
+        "brand": "Realme",
+        "model": "GT 8 Pro",
+        "variants": {
+          "ram": [12, 16],
+          "storage": [256, 512],
+          "price": [72999, 79999]
+        },
+        "display": 6.79,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 7000,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "iqoo_15_performance",
+        "brand": "iQOO",
+        "model": "iQOO 15",
+        "variants": {
+          "ram": [12, 16],
+          "storage": [256, 512],
+          "price": [72999, 79999]
+        },
+        "display": 6.85,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 7000,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "xiaomi_14_base",
+        "brand": "Xiaomi",
+        "model": "Xiaomi 14",
+        "variants": {
+          "ram": [12],
+          "storage": [512],
+          "price": [69999]
+        },
+        "display": 6.36,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 4610,
+        "_5g": true,
+        "compact": true
+      },
+      {
+        "id": "oneplus_13s_pro",
+        "brand": "OnePlus",
+        "model": "OnePlus 13s",
+        "variants": {
+          "ram": [12],
+          "storage": [256],
+          "price": [52685, 53977]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 5500,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "google_pixel_8_pro_offer",
+        "brand": "Google",
+        "model": "Pixel 8 Pro",
+        "variants": {
+          "ram": [12],
+          "storage": [128],
+          "price": [57999, 65999]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 10.5
+        },
+        "battery": 5050,
+        "_5g": true,
+        "compact": false
+      },
+      {
+        "id": "nothing_phone_3_pro",
+        "brand": "Nothing",
+        "model": "Phone (3)",
+        "variants": {
+          "ram": [12],
+          "storage": [256, 512],
+          "price": [54999, 62999]
+        },
+        "display": 6.7,
+        "camera": {
+          "rear_mp": 50,
+          "front_mp": 32
+        },
+        "battery": 5000,
+        "_5g": true,
+        "compact": false
+      }
+    ,
+
+      { "id": "redmi_13__5g", "brand": "Xiaomi", "model": "Redmi 13 _5g", "variants": { "ram": [6, 8], "storage": [128], "price": [13999, 15499] }, "display": 6.79, "camera": { "rear_mp": 108, "front_mp": 13 }, "battery": 5030, "_5g": true, "compact": false },
+      { "id": "moto_g64__5g", "brand": "Motorola", "model": "Moto G64", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [14999, 16999] }, "display": 6.5, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 6000, "_5g": true, "compact": false },
+      { "id": "samsung_m15__5g", "brand": "Samsung", "model": "Galaxy M15", "variants": { "ram": [4, 6], "storage": [128], "price": [12999, 14499] }, "display": 6.5, "camera": { "rear_mp": 50, "front_mp": 13 }, "battery": 6000, "_5g": true, "compact": false },
+      { "id": "poco_m6_pro", "brand": "Poco", "model": "Poco M6 Pro _5g", "variants": { "ram": [6, 8], "storage": [128, 256], "price": [10999, 12999] }, "display": 6.79, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "realme_12x", "brand": "Realme", "model": "Realme 12x _5g", "variants": { "ram": [4, 6, 8], "storage": [128], "price": [11999, 13499, 14999] }, "display": 6.72, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "vivo_t3x", "brand": "Vivo", "model": "Vivo T3x _5g", "variants": { "ram": [4, 6, 8], "storage": [128], "price": [13499, 14999, 16499] }, "display": 6.72, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 6000, "_5g": true, "compact": false },
+      { "id": "iqoo_z9x", "brand": "iQOO", "model": "iQOO Z9x", "variants": { "ram": [6, 8], "storage": [128], "price": [12999, 14499] }, "display": 6.72, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 6000, "_5g": true, "compact": false },
+      { "id": "samsung_f15", "brand": "Samsung", "model": "Galaxy F15 _5g", "variants": { "ram": [4, 6], "storage": [128], "price": [12999, 14499] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 13 }, "battery": 6000, "_5g": true, "compact": false },
+      { "id": "moto_g85", "brand": "Motorola", "model": "Moto G85 _5g", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [17999, 19999] }, "display": 6.67, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "cmf_phone_1", "brand": "Nothing", "model": "CMF Phone 1", "variants": { "ram": [6, 8], "storage": [128], "price": [15999, 17999] }, "display": 6.67, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "realme_narzo_70_turbo", "brand": "Realme", "model": "Narzo 70 Turbo", "variants": { "ram": [6, 8, 12], "storage": [128, 256], "price": [16999, 18999, 20999] }, "display": 6.67, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "lava_agni_2", "brand": "Lava", "model": "Agni 2 _5g", "variants": { "ram": [8], "storage": [256], "price": [17999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 4700, "_5g": true, "compact": false },
+      { "id": "oppo_k12x", "brand": "Oppo", "model": "Oppo K12x", "variants": { "ram": [6, 8], "storage": [128, 256], "price": [12999, 15999] }, "display": 6.67, "camera": { "rear_mp": 32, "front_mp": 8 }, "battery": 5100, "_5g": true, "compact": false },
+      { "id": "vivo_y28s", "brand": "Vivo", "model": "Vivo Y28s _5g", "variants": { "ram": [4, 6, 8], "storage": [128], "price": [13999, 15499, 16999] }, "display": 6.56, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "redmi_note_13__5g", "brand": "Xiaomi", "model": "Redmi Note 13", "variants": { "ram": [6, 8, 12], "storage": [128, 256], "price": [16999, 18999, 20999] }, "display": 6.67, "camera": { "rear_mp": 108, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "nothing_phone_2a", "brand": "Nothing", "model": "Phone (2a)", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [23999, 27999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "oneplus_nord_ce4", "brand": "OnePlus", "model": "Nord CE4", "variants": { "ram": [8], "storage": [128, 256], "price": [24999, 26999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "poco_x6_pro", "brand": "Poco", "model": "Poco X6 Pro", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [23999, 27999] }, "display": 6.67, "camera": { "rear_mp": 64, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "motorola_edge_50_fusion", "brand": "Motorola", "model": "Edge 50 Fusion", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [22999, 24999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "samsung_a35", "brand": "Samsung", "model": "Galaxy A35", "variants": { "ram": [8], "storage": [128, 256], "price": [27999, 30999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 13 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "realme_13_pro", "brand": "Realme", "model": "Realme 13 Pro", "variants": { "ram": [8, 12], "storage": [128, 256, 512], "price": [26999, 28999, 31999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5200, "_5g": true, "compact": false },
+      { "id": "vivo_v30e", "brand": "Vivo", "model": "Vivo V30e", "variants": { "ram": [8], "storage": [128, 256], "price": [27999, 29999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "iqoo_z9_pro", "brand": "iQOO", "model": "iQOO Z9 Pro", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [24999, 28999] }, "display": 6.77, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "oneplus_nord_4", "brand": "OnePlus", "model": "Nord 4", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [29999, 32999, 35999] }, "display": 6.74, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "poco_f6", "brand": "Poco", "model": "Poco F6", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [27999, 31999] }, "display": 6.67, "camera": { "rear_mp": 50, "front_mp": 20 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "oppo_reno_12", "brand": "Oppo", "model": "Reno 12", "variants": { "ram": [8], "storage": [256], "price": [32999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "realme_gt_6t", "brand": "Realme", "model": "Realme GT 6T", "variants": { "ram": [8, 12], "storage": [128, 256, 512], "price": [30999, 32999, 35999, 39999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "samsung_a55", "brand": "Samsung", "model": "Galaxy A55", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [39999, 42999, 45999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "vivo_v40", "brand": "Vivo", "model": "Vivo V40", "variants": { "ram": [8, 12], "storage": [128, 256, 512], "price": [34999, 36999, 41999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "motorola_edge_50_pro", "brand": "Motorola", "model": "Edge 50 Pro", "variants": { "ram": [8, 12], "storage": [256], "price": [31999, 35999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 4500, "_5g": true, "compact": false },
+      { "id": "google_pixel_7a", "brand": "Google", "model": "Pixel 7a", "variants": { "ram": [8], "storage": [128], "price": [35999] }, "display": 6.1, "camera": { "rear_mp": 64, "front_mp": 13 }, "battery": 4385, "_5g": true, "compact": true },
+      { "id": "oneplus_12r", "brand": "OnePlus", "model": "OnePlus 12R", "variants": { "ram": [8, 12, 16], "storage": [128, 256], "price": [39999, 42999, 45999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "google_pixel_8a", "brand": "Google", "model": "Pixel 8a", "variants": { "ram": [8], "storage": [128, 256], "price": [49999, 56999] }, "display": 6.1, "camera": { "rear_mp": 64, "front_mp": 13 }, "battery": 4492, "_5g": true, "compact": true },
+      { "id": "xiaomi_14_civi", "brand": "Xiaomi", "model": "Xiaomi 14 Civi", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [42999, 47999] }, "display": 6.55, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 4700, "_5g": true, "compact": false },
+      { "id": "samsung_s23_fe", "brand": "Samsung", "model": "Galaxy S23 FE", "variants": { "ram": [8], "storage": [128, 256], "price": [33999, 38999] }, "display": 6.4, "camera": { "rear_mp": 50, "front_mp": 10 }, "battery": 4500, "_5g": true, "compact": false },
+      { "id": "realme_gt_6", "brand": "Realme", "model": "Realme GT 6", "variants": { "ram": [8, 12, 16], "storage": [256, 512], "price": [40999, 42999, 44999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "nothing_phone_2", "brand": "Nothing", "model": "Phone (2)", "variants": { "ram": [8, 12], "storage": [128, 256, 512], "price": [37999, 39999, 42999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 4700, "_5g": true, "compact": false },
+      { "id": "iqoo_neo_9_pro", "brand": "iQOO", "model": "iQOO Neo 9 Pro", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [34999, 37999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5160, "_5g": true, "compact": false },
+      { "id": "motorola_edge_50_ultra_entry", "brand": "Motorola", "model": "Edge 50 Ultra (Base)", "variants": { "ram": [12], "storage": [512], "price": [49999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 4500, "_5g": true, "compact": false },
+      { "id": "vivo_v40_pro", "brand": "Vivo", "model": "Vivo V40 Pro", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [49999, 55999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5500, "_5g": true, "compact": false },
+      { "id": "iphone_13_base", "brand": "Apple", "model": "iPhone 13", "variants": { "ram": [4], "storage": [128], "price": [42999] }, "display": 6.1, "camera": { "rear_mp": 12, "front_mp": 12 }, "battery": 3227, "_5g": true, "compact": true },
+      { "id": "oppo_reno_12_pro", "brand": "Oppo", "model": "Reno 12 Pro", "variants": { "ram": [12], "storage": [256, 512], "price": [36999, 40999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "realme_13_pro_plus", "brand": "Realme", "model": "Realme 13 Pro+", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [32999, 34999, 36999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5200, "_5g": true, "compact": false },
+      { "id": "honor_200", "brand": "Honor", "model": "Honor 200", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [32999, 39999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5200, "_5g": true, "compact": false },
+      { "id": "honor_200_pro", "brand": "Honor", "model": "Honor 200 Pro", "variants": { "ram": [12], "storage": [512], "price": [47999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 50 }, "battery": 5200, "_5g": true, "compact": false },
+      { "id": "tecno_phantom_v_flip", "brand": "Tecno", "model": "Phantom V Flip", "variants": { "ram": [8], "storage": [256], "price": [46999] }, "display": 6.9, "camera": { "rear_mp": 64, "front_mp": 32 }, "battery": 4000, "_5g": true, "compact": false },
+      { "id": "moto_razr_40", "brand": "Motorola", "model": "Razr 40", "variants": { "ram": [8], "storage": [256], "price": [44999] }, "display": 6.9, "camera": { "rear_mp": 64, "front_mp": 32 }, "battery": 4200, "_5g": true, "compact": false },
+      { "id": "samsung_a34", "brand": "Samsung", "model": "Galaxy A34", "variants": { "ram": [8], "storage": [128, 256], "price": [24499, 26499] }, "display": 6.6, "camera": { "rear_mp": 48, "front_mp": 13 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "redmi_note_13_pro_plus", "brand": "Xiaomi", "model": "Note 13 Pro+", "variants": { "ram": [8, 12], "storage": [256, 512], "price": [30999, 32999, 34999] }, "display": 6.67, "camera": { "rear_mp": 200, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "iqoo_neo_7_pro", "brand": "iQOO", "model": "Neo 7 Pro", "variants": { "ram": [8, 12], "storage": [128, 256], "price": [29999, 32999] }, "display": 6.78, "camera": { "rear_mp": 50, "front_mp": 16 }, "battery": 5000, "_5g": true, "compact": false }
+    ,
+
+      { "id": "poco_m6__5g_base", "brand": "Poco", "model": "Poco M6 _5g", "variants": { "ram": [4, 6], "storage": [64, 128], "price": [8999, 9999] }, "display": 6.74, "camera": { "rear_mp": 50, "front_mp": 5 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "redmi_13c_4g", "brand": "Xiaomi", "model": "Redmi 13C", "variants": { "ram": [4, 6], "storage": [128], "price": [7699, 8499] }, "display": 6.74, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "moto_g04s", "brand": "Motorola", "model": "Moto G04s", "variants": { "ram": [4], "storage": [64], "price": [6999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "realme_c61", "brand": "Realme", "model": "Realme C61", "variants": { "ram": [4, 6], "storage": [64, 128], "price": [7699, 8499] }, "display": 6.74, "camera": { "rear_mp": 32, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "itel_p55__5g", "brand": "Itel", "model": "Itel P55 _5g", "variants": { "ram": [4, 6], "storage": [64, 128], "price": [8999, 9999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "samsung_m05", "brand": "Samsung", "model": "Galaxy M05", "variants": { "ram": [4], "storage": [64], "price": [7999] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "infinix_smart_8_plus", "brand": "Infinix", "model": "Smart 8 Plus", "variants": { "ram": [4], "storage": [128], "price": [7799] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 6000, "_5g": false, "compact": false },
+      { "id": "lava_yuva_3", "brand": "Lava", "model": "Yuva 3", "variants": { "ram": [4], "storage": [64, 128], "price": [6799, 7299] }, "display": 6.5, "camera": { "rear_mp": 13, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "poco_c65", "brand": "Poco", "model": "Poco C65", "variants": { "ram": [4, 6], "storage": [128], "price": [7499, 8299] }, "display": 6.74, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "redmi_a3", "brand": "Xiaomi", "model": "Redmi A3", "variants": { "ram": [3, 4, 6], "storage": [64, 128], "price": [6999, 7999, 8999] }, "display": 6.71, "camera": { "rear_mp": 8, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "realme_c63", "brand": "Realme", "model": "Realme C63", "variants": { "ram": [4], "storage": [128], "price": [8999] }, "display": 6.74, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "vivo_y03", "brand": "Vivo", "model": "Vivo Y03", "variants": { "ram": [4], "storage": [64, 128], "price": [7299, 7999] }, "display": 6.56, "camera": { "rear_mp": 13, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "oppo_a18_entry", "brand": "Oppo", "model": "Oppo A18", "variants": { "ram": [4], "storage": [64], "price": [8999] }, "display": 6.56, "camera": { "rear_mp": 8, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "lava_o2", "brand": "Lava", "model": "Lava O2", "variants": { "ram": [8], "storage": [128], "price": [7999] }, "display": 6.5, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "infinix_hot_40i", "brand": "Infinix", "model": "Hot 40i", "variants": { "ram": [8], "storage": [256], "price": [9499] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 32 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "tecno_spark_20c", "brand": "Tecno", "model": "Spark 20C", "variants": { "ram": [4, 8], "storage": [128], "price": [7999, 8999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "moto_e13_top", "brand": "Motorola", "model": "Moto E13", "variants": { "ram": [8], "storage": [128], "price": [7499] }, "display": 6.5, "camera": { "rear_mp": 13, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "samsung_a05", "brand": "Samsung", "model": "Galaxy A05", "variants": { "ram": [4, 6], "storage": [64, 128], "price": [7999, 9499] }, "display": 6.7, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": false, "compact": false },
+      { "id": "itel_color_pro__5g", "brand": "Itel", "model": "Color Pro _5g", "variants": { "ram": [6], "storage": [128], "price": [9999] }, "display": 6.6, "camera": { "rear_mp": 50, "front_mp": 8 }, "battery": 5000, "_5g": true, "compact": false },
+      { "id": "poco_c61", "brand": "Poco", "model": "Poco C61", "variants": { "ram": [4, 6], "storage": [64, 128], "price": [6499, 7299] }, "display": 6.71, "camera": { "rear_mp": 8, "front_mp": 5 }, "battery": 5000, "_5g": false, "compact": false }
+    ]

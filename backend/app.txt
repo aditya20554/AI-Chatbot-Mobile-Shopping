@@ -1,0 +1,235 @@
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+import json
+
+from safety import is_unsafe
+from intent import parse_intent
+from retrieve import retrieve_phones
+from knowledge import handle_knowledge_query
+from ranking import score_phone
+from comparison import build_comparison  # make sure this is updated for your variant structure
+
+app = Flask(__name__)
+CORS(app)
+
+with open("phones.json") as f:
+    PHONES = json.load(f)
+
+LAST_RESULTS = []
+
+def format_recommendation(phones, intent=None):
+    """
+    Format recommended phones for frontend display
+    - Show all variant prices filtered by budget/RAM/Storage if intent exists
+    - Include multiple feature-based reasons for recommendation
+    """
+    rec_list = []
+
+    for p in phones:
+        # Handle variant prices
+        ram_list = p["variants"].get("ram", [])
+        storage_list = p["variants"].get("storage", [])
+        price_list = p["variants"].get("price", [])
+        variant_tuples = list(zip(ram_list, storage_list, price_list))
+
+        prices_to_show = []
+
+        # Filter variants based on intent
+        if intent:
+            ram_filter = intent.get("ram")
+            storage_filter = intent.get("storage")
+            budget_filter = intent.get("budget")
+
+            for ram, storage, price in variant_tuples:
+                if ram_filter and storage_filter:
+                    if ram == ram_filter and storage == storage_filter:
+                        prices_to_show.append(f"₹{price} ({ram}GB/{storage}GB)")
+                else:
+                    if not budget_filter or price <= budget_filter:
+                        prices_to_show.append(f"₹{price} ({ram}GB/{storage}GB)")
+        else:
+            for ram, storage, price in variant_tuples:
+                prices_to_show.append(f"₹{price} ({ram}GB/{storage}GB)")
+
+        # Feature-based recommendations
+        recommendations = []
+
+        # Camera
+        rear_mp = p["camera"]["rear_mp"]
+        front_mp = p["camera"]["front_mp"]
+        if rear_mp >= 108:
+            recommendations.append("Professional-grade photography with high-resolution rear camera")
+        elif rear_mp >= 64:
+            recommendations.append("Great photography capabilities")
+        elif rear_mp >= 32:
+            recommendations.append("Good camera for everyday use")
+
+        if front_mp >= 32:
+            recommendations.append("High-quality selfies with front camera")
+        elif front_mp >= 16:
+            recommendations.append("Good front camera for video calls and selfies")
+
+        # Battery
+        if p["battery"] >= 5000:
+            recommendations.append("Excellent battery life for heavy usage")
+        elif p["battery"] >= 4000:
+            recommendations.append("Long-lasting battery for daily use")
+        else:
+            recommendations.append("Decent battery for moderate usage")
+
+        # Display
+        if p["display"] >= 6.7:
+            recommendations.append("Large immersive display, great for media and gaming")
+        elif p["display"] >= 6.0:
+            recommendations.append("Comfortable display size for everyday use")
+        else:
+            recommendations.append("Compact display for easy handling")
+
+        # RAM & Storage
+        max_ram = max(ram_list) if ram_list else 0
+        max_storage = max(storage_list) if storage_list else 0
+        if max_ram >= 12:
+            recommendations.append("High RAM for seamless multitasking and gaming")
+        elif max_ram >= 8:
+            recommendations.append("Smooth performance for apps and multitasking")
+        if max_storage >= 256:
+            recommendations.append("Ample storage for apps, media, and files")
+        elif max_storage >= 128:
+            recommendations.append("Good storage for most users")
+
+        # 5G
+        if p["5g"]:
+            recommendations.append("Future-proof with 5G connectivity")
+
+        # Compact
+        if p["compact"]:
+            recommendations.append("Compact design, easy to carry and handle")
+
+        # Budget filter
+        if intent and intent.get("budget"):
+            affordable = any(price <= intent["budget"] for _, _, price in variant_tuples)
+            if affordable:
+                recommendations.append(f"Affordable within your budget of ₹{intent['budget']}")
+
+        rec_list.append({
+            "id": p["id"],
+            "brand": p["brand"],
+            "model": p["model"],
+            "display": p["display"],
+            "battery": p["battery"],
+            "rear_camera": rear_mp,
+            "front_camera": front_mp,
+            "5g": p["5g"],
+            "compact": p["compact"],
+            "price_str": ", ".join(prices_to_show),
+            "reason": "; ".join(recommendations)  # multiple reasons separated
+        })
+
+    return rec_list
+
+
+@app.route("/chat", methods=["POST"])
+def chat():
+    global LAST_RESULTS
+
+    message = request.json.get("message", "").strip()
+
+    # 1️⃣ Safety check
+    if is_unsafe(message):
+        return jsonify({"reply": "I can’t help with that."})
+
+    # 2️⃣ Knowledge / explanation queries
+    knowledge_response = handle_knowledge_query(message)
+    if knowledge_response:
+        return jsonify(knowledge_response)
+
+    # 3️⃣ Intent parsing
+    intent = parse_intent(message)
+    print("intent : " , intent)
+    # 4️⃣ Follow-up handling
+    if intent.get("follow_up") and LAST_RESULTS:
+        phone = LAST_RESULTS[0]
+        return jsonify({
+            "reply": (
+                f"{phone['brand']} {phone['model']} features a {phone['display']}″ display, "
+                f"a {phone['camera']['rear_mp']}MP rear camera, "
+                f"{phone['battery']}mAh battery, and 5G support."
+            )
+        })
+
+    # 5️⃣ Retrieve phones
+    phones = retrieve_phones(intent, PHONES)
+
+    if not phones:
+        return jsonify({"reply": "No phones match your criteria."})
+
+    # 6️⃣ Recommendation scoring
+    for p in phones:
+        p["score"] = score_phone(p, intent)
+
+    phones = sorted(phones, key=lambda x: x["score"], reverse=True)
+
+    # Store results for follow-ups
+    LAST_RESULTS = phones
+
+    # 7️⃣ Comparison mode
+    if intent.get("compare"):
+        top_phones = phones[:3]
+        comparison = build_comparison(top_phones, intent)
+        return jsonify({
+            "reply": "Here’s a comparison of the selected phones:",
+            "comparison": comparison
+        })
+
+    # 8️⃣ Normal recommendation response
+    top_recommendations = phones[:3]
+    recommendations = format_recommendation(top_recommendations, intent)
+
+    explanation = "Recommended based on your preferences - "
+
+    # Camera preference
+    if intent.get("camera"):
+        explanation += "camera quality, "
+
+    # Battery preference
+    if intent.get("battery"):
+        explanation += "battery life, "
+
+    # Compact design
+    if intent.get("compact"):
+        explanation += "compact design, "
+
+    # Performance preferences
+    if intent.get("ram"):
+        explanation += f"{intent['ram']}GB RAM, "
+    if intent.get("storage"):
+        explanation += f"{intent['storage']}GB storage, "
+
+    # Connectivity
+    if intent.get("5g"):
+        explanation += "5G support, "
+
+    # Display quality
+    if intent.get("display_min"):
+        explanation += f"display >= {intent['display_min']} inch, "
+
+    # Budget
+    if intent.get("budget"):
+        explanation += f"within ₹{intent['budget']}, "
+
+    # Brand preference
+    if intent.get("brand"):
+        explanation += f"brand: {intent['brand']}, "
+
+    # Final formatting: remove trailing comma & space
+    explanation = explanation.rstrip(", ")
+    explanation += "."
+
+    return jsonify({
+        "reply": explanation + ".",
+        "recommendations": recommendations
+    })
+
+
+if __name__ == "__main__":
+    app.run(port=8000, debug=True)

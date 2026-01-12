@@ -1,0 +1,13 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.env
+
+# JavaScript
+frontend/node_modules/
+frontend/dist/
+.eslintcache
+
+# System
+.DS_Store
+Thumbs.db
