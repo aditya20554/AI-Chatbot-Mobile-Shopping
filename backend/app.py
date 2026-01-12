@@ -3,6 +3,7 @@ from flask_cors import CORS
 import json
 import requests
 from safety import get_system_prompt
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -127,4 +128,6 @@ def chat():
         return jsonify({"reply": "I encountered a system error. Please try again.", "intent": "ERROR"})
     
 if __name__ == "__main__":
-    app.run(port=8000, debug=True)
+    # Change this to allow external connections
+    port = int(os.environ.get("PORT", 8000))
+    app.run(host='0.0.0.0', port=8000, debug=True)
